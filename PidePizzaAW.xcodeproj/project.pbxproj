@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A156E8D1D7B0BFE0056AACF /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A156E8C1D7B0BFE0056AACF /* TipoQueso.swift */; };
+		6A156E8F1D7B2FD20056AACF /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A156E8E1D7B2FD20056AACF /* Ingredientes.swift */; };
+		6A156E911D7B35900056AACF /* pantaFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A156E901D7B35900056AACF /* pantaFinal.swift */; };
 		6A9DDAFD1D7A562100ADC92D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDAFC1D7A562100ADC92D /* AppDelegate.swift */; };
 		6A9DDAFF1D7A562100ADC92D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDAFE1D7A562100ADC92D /* ViewController.swift */; };
 		6A9DDB021D7A562100ADC92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9DDB001D7A562100ADC92D /* Main.storyboard */; };
@@ -19,6 +22,8 @@
 		6A9DDB201D7A562100ADC92D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDB1F1D7A562100ADC92D /* InterfaceController.swift */; };
 		6A9DDB221D7A562100ADC92D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDB211D7A562100ADC92D /* ExtensionDelegate.swift */; };
 		6A9DDB241D7A562100ADC92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9DDB231D7A562100ADC92D /* Assets.xcassets */; };
+		6A9DDB341D7A6D0B00ADC92D /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDB331D7A6D0B00ADC92D /* TipoMasa.swift */; };
+		6A9DDB361D7A6EA500ADC92D /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9DDB351D7A6EA500ADC92D /* Pizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A156E8C1D7B0BFE0056AACF /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		6A156E8E1D7B2FD20056AACF /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
+		6A156E901D7B35900056AACF /* pantaFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantaFinal.swift; sourceTree = "<group>"; };
 		6A9DDAF91D7A562100ADC92D /* PidePizzaAW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PidePizzaAW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9DDAFC1D7A562100ADC92D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A9DDAFE1D7A562100ADC92D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 		6A9DDB211D7A562100ADC92D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6A9DDB231D7A562100ADC92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9DDB251D7A562100ADC92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9DDB331D7A6D0B00ADC92D /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		6A9DDB351D7A6EA500ADC92D /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +160,11 @@
 				6A9DDB211D7A562100ADC92D /* ExtensionDelegate.swift */,
 				6A9DDB231D7A562100ADC92D /* Assets.xcassets */,
 				6A9DDB251D7A562100ADC92D /* Info.plist */,
+				6A9DDB331D7A6D0B00ADC92D /* TipoMasa.swift */,
+				6A9DDB351D7A6EA500ADC92D /* Pizza.swift */,
+				6A156E8C1D7B0BFE0056AACF /* TipoQueso.swift */,
+				6A156E8E1D7B2FD20056AACF /* Ingredientes.swift */,
+				6A156E901D7B35900056AACF /* pantaFinal.swift */,
 			);
 			path = "PidePizzaAW WatchKit Extension";
 			sourceTree = "<group>";
@@ -295,6 +310,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A156E8F1D7B2FD20056AACF /* Ingredientes.swift in Sources */,
+				6A9DDB361D7A6EA500ADC92D /* Pizza.swift in Sources */,
+				6A9DDB341D7A6D0B00ADC92D /* TipoMasa.swift in Sources */,
+				6A156E8D1D7B0BFE0056AACF /* TipoQueso.swift in Sources */,
+				6A156E911D7B35900056AACF /* pantaFinal.swift in Sources */,
 				6A9DDB221D7A562100ADC92D /* ExtensionDelegate.swift in Sources */,
 				6A9DDB201D7A562100ADC92D /* InterfaceController.swift in Sources */,
 			);
@@ -529,6 +549,7 @@
 				6A9DDB2A1D7A562100ADC92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A9DDB2C1D7A562100ADC92D /* Build configuration list for PBXNativeTarget "PidePizzaAW WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +558,7 @@
 				6A9DDB2E1D7A562100ADC92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A9DDB301D7A562100ADC92D /* Build configuration list for PBXNativeTarget "PidePizzaAW" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +567,7 @@
 				6A9DDB321D7A562100ADC92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2556454EA3C8B45ABD117E2859562256F3D4C9BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2556454EA3C8B45ABD117E2859562256F3D4C9BE" : 0,
+    "6DD6C5E229021D06BEEE441898922708F63047BA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E2486C23-0472-493B-8A88-7FAE39B53B14",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2556454EA3C8B45ABD117E2859562256F3D4C9BE" : "PidePizzaAW\/",
+    "6DD6C5E229021D06BEEE441898922708F63047BA" : "..\/..\/..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PidePizzaAW",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PidePizzaAW.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mcalderaf\/PidePizzaAW.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2556454EA3C8B45ABD117E2859562256F3D4C9BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mcalderaf\/juegoMemoriaMariselaC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DD6C5E229021D06BEEE441898922708F63047BA"
+    }
+  ]
+}
