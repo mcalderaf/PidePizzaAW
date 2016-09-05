@@ -48,6 +48,7 @@ class TipoMasa: WKInterfaceController {
     }
     @IBAction func esDelgada(value: Bool) {
         masaGruesa.setOn(false)
+        masaDelgada.setOn(true)
         masaCrujiente.setOn(false)
         masaOld="delgada"
     }
@@ -55,12 +56,14 @@ class TipoMasa: WKInterfaceController {
     @IBAction func esCrujiente(value: Bool) {
         masaGruesa.setOn(false)
         masaDelgada.setOn(false)
+        masaCrujiente.setOn(true)
         masaOld="crujiente"
     }
     
     @IBAction func esGruesa(value: Bool) {
         masaDelgada.setOn(false)
         masaCrujiente.setOn(false)
+        masaGruesa.setOn(true)
         masaOld="gruesa"
     }
 }

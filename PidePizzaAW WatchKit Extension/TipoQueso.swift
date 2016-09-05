@@ -49,6 +49,7 @@ class TipoQueso: WKInterfaceController {
     
     @IBAction func esMozarela(value: Bool) {
         tipoCheddar.setOn(false)
+        tipoMozarela.setOn(true)
         tipoParmesano.setOn(false)
         tipoSinQueso.setOn(false)
         quesoOld="mozarela"
@@ -58,6 +59,7 @@ class TipoQueso: WKInterfaceController {
         tipoMozarela.setOn(false)
         tipoParmesano.setOn(false)
         tipoSinQueso.setOn(false)
+        tipoCheddar.setOn(true)
         quesoOld="cheddar"
     }
     
@@ -65,6 +67,7 @@ class TipoQueso: WKInterfaceController {
         tipoMozarela.setOn(false)
         tipoCheddar.setOn(false)
         tipoSinQueso.setOn(false)
+        tipoParmesano.setOn(true)
         quesoOld="parmesano"
     }
     
@@ -72,6 +75,7 @@ class TipoQueso: WKInterfaceController {
         tipoMozarela.setOn(false)
         tipoParmesano.setOn(false)
         tipoCheddar.setOn(false)
+        tipoSinQueso.setOn(true)
         quesoOld="sinQueso"
     }
     

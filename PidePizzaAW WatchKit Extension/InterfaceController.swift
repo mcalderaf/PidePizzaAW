@@ -45,23 +45,9 @@ class InterfaceController: WKInterfaceController {
         print(valorContexto)
         print(sizeOld)
     }
-    
-   // func setSize() {
-       // if sizeOld == (pizzaCheeseTmp?.tamaño)!{
-         //   switch sizeOld {
-           // case "chica":
-             //   tamChica.setOn(true)
-     //       case "mediana":
-       //         tamMediana.setOn(true)
-         //   case "grande":
-           //     tamGrande.setOn(true)
-       //     default:
-         //       tamChica.setOn(false)
-           // }
-       // }
- //   }
-    
+
     @IBAction func esChica(value: Bool) {
+        tamChica.setOn(true)
         tamMediana.setOn(false)
         tamGrande.setOn(false)
         sizeOld="chica"
@@ -69,6 +55,7 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func esMediana(value: Bool) {
         tamChica.setOn(false)
+        tamMediana.setOn(true)
         tamGrande.setOn(false)
         sizeOld="mediana"
     }
@@ -76,6 +63,7 @@ class InterfaceController: WKInterfaceController {
     @IBAction func esGrande(value: Bool) {
         tamChica.setOn(false)
         tamMediana.setOn(false)
+        tamGrande.setOn(true)
         sizeOld="grande"
     }
 }

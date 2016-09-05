@@ -54,75 +54,83 @@ class Ingredientes: WKInterfaceController {
         print("\(ingreOld) cantidad: \(count)")
     }
     @IBAction func esJamon(value: Bool) {
-        if count<5 {
+        if count<5 && value{
             ingreOld += " Jam"
             count=count+1
         }
         else{
             conJamon.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esPepperoni(value: Bool) {
-        if count<5 {
+        if count<5 && value {
             ingreOld += " Pep"
             count=count+1
         }
         else{
             conPepperoni.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esPavo(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Pav"
             count=count+1
         }
         else{
             conPavo.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esSalchicha(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Sal"
             count=count+1
         }
         else{
             conSalchicha.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esAceituna(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Ace"
             count=count+1
         }
         else{
             conAceituna.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esCebolla(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Ceb"
             count=count+1
         }
         else{
             conCebolla.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esPiña(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Piñ"
             count=count+1
         }
         else{
             conPina.setOn(false)
+            count=count-1
         }
     }
     @IBAction func esAnchoa(value: Bool) {
-        if count<5 {
+        if count<5  && value{
             ingreOld += " Anc"
             count=count+1
         }
         else{
             conAnchoa.setOn(false)
+            count=count-1
         }
     }
     

@@ -13,6 +13,7 @@ import Foundation
 class pantaFinal: WKInterfaceController {
 
     var pizzaCheeseTmp:  Pizza?
+    var band=false
     @IBOutlet var orden: WKInterfaceLabel!
     @IBOutlet var datos: WKInterfaceLabel!
     @IBOutlet var ingre: WKInterfaceLabel!
@@ -25,6 +26,7 @@ class pantaFinal: WKInterfaceController {
         orden.setText(pizzaCheeseTmp!.tamaño+" "+pizzaCheeseTmp!.masa)
         datos.setText(pizzaCheeseTmp!.queso)
         ingre.setText(pizzaCheeseTmp!.ingredientes)
+        band=true
         // Configure interface objects here.
     }
 
@@ -38,7 +40,9 @@ class pantaFinal: WKInterfaceController {
         super.didDeactivate()
     }
     @IBAction func confirmar() {
-        mensaje.setText("Orden realizada!")
+        if band {
+            mensaje.setText("Orden realizada!")
+        }
     }
 
 }
