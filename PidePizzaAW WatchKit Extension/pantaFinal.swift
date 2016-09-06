@@ -26,7 +26,11 @@ class pantaFinal: WKInterfaceController {
         orden.setText(pizzaCheeseTmp!.tamaño+" "+pizzaCheeseTmp!.masa)
         datos.setText(pizzaCheeseTmp!.queso)
         ingre.setText(pizzaCheeseTmp!.ingredientes)
-        band=true
+        if pizzaCheeseTmp?.ingredientes==nil{
+            band = false
+        } else {
+            band=true
+        }
         // Configure interface objects here.
     }
 
@@ -42,6 +46,9 @@ class pantaFinal: WKInterfaceController {
     @IBAction func confirmar() {
         if band {
             mensaje.setText("Orden realizada!")
+        }
+        else {
+            mensaje.setText("Faltan algo...")
         }
     }
 

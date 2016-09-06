@@ -59,8 +59,13 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conJamon.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conJamon.setOn(false)
+            }
+            else {
+            conJamon.setOn(true)
+            //count=count-1
+            }
         }
     }
     @IBAction func esPepperoni(value: Bool) {
@@ -69,8 +74,13 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conPepperoni.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conPepperoni.setOn(false)
+            }
+            else {
+                conPepperoni.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esPavo(value: Bool) {
@@ -79,8 +89,13 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conPavo.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conPavo.setOn(false)
+            }
+            else {
+                conPavo.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esSalchicha(value: Bool) {
@@ -89,8 +104,13 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conSalchicha.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conSalchicha.setOn(false)
+            }
+            else {
+                conSalchicha.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esAceituna(value: Bool) {
@@ -99,8 +119,13 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conAceituna.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conAceituna.setOn(false)
+            }
+            else {
+                conAceituna.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esCebolla(value: Bool) {
@@ -109,8 +134,12 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conCebolla.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conCebolla.setOn(false)
+            } else {
+                conCebolla.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esPiña(value: Bool) {
@@ -119,8 +148,12 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conPina.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conPina.setOn(false)
+            } else {
+                conPina.setOn(true)
+                //count=count-1
+            }
         }
     }
     @IBAction func esAnchoa(value: Bool) {
@@ -129,8 +162,12 @@ class Ingredientes: WKInterfaceController {
             count=count+1
         }
         else{
-            conAnchoa.setOn(false)
-            count=count-1
+            if count>=5 && value{
+                conAnchoa.setOn(false)
+            } else {
+                conAnchoa.setOn(true)
+                //count=count-1
+            }
         }
     }
     
